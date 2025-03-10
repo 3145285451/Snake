@@ -68,7 +68,9 @@
 #### 编译步骤
 ```sh
 # 创建并进入构建目录
-mkdir build && cd build
+mkdir build
+
+cd build
 
 # 生成构建文件
 cmake -G "MinGW Makefiles" ..
